@@ -14,6 +14,7 @@
 		CE12BD7020A75A0900A32733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE12BD6E20A75A0900A32733 /* LaunchScreen.storyboard */; };
 		CE12BD7B20A75A0900A32733 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BD7A20A75A0900A32733 /* TableViewTests.swift */; };
 		CE12BD8620A75A0A00A32733 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BD8520A75A0A00A32733 /* TableViewUITests.swift */; };
+		CE12BD9420A76FAF00A32733 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BD9320A76FAF00A32733 /* TableViewCell2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE12BD8120A75A0900A32733 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE12BD8520A75A0A00A32733 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		CE12BD8720A75A0A00A32733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE12BD9320A76FAF00A32733 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CE12BD6520A75A0800A32733 /* AppDelegate.swift */,
 				CE12BD6720A75A0800A32733 /* ViewController.swift */,
 				CE12BD6920A75A0800A32733 /* Main.storyboard */,
+				CE12BD9320A76FAF00A32733 /* TableViewCell2.swift */,
 				CE12BD6C20A75A0900A32733 /* Assets.xcassets */,
 				CE12BD6E20A75A0900A32733 /* LaunchScreen.storyboard */,
 				CE12BD7120A75A0900A32733 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE12BD9420A76FAF00A32733 /* TableViewCell2.swift in Sources */,
 				CE12BD6820A75A0800A32733 /* ViewController.swift in Sources */,
 				CE12BD6620A75A0800A32733 /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
